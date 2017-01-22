@@ -17,14 +17,14 @@
 </a>
 </div>
 <div class="container">
-  <nav class="main-navigation">
-    <ul>
+<nav class="main-navigation">
+<ul>
       <li class="main-navigation-item"><a href="#">Информация</a></li>
-        <li class="main-navigation-item"><a href="#">Новости</a></li>
-          <li class="main-navigation-item"><a href="#">Прайс-лист</a></li>
-            <li><span class="current">Магазин</span></li>
-              <li class="main-navigation-item"><a href="#">Контакты</a></li>
-      </ul>
+      <li class="main-navigation-item"><a href="#">Новости</a></li>
+      <li class="main-navigation-item"><a href="#">Прайс-лист</a></li>
+      <li><span class="current">Магазин</span></li>
+      <li class="main-navigation-item"><a href="#">Контакты</a></li>
+</ul>
 </nav>
 <div class="user-block">
   <a class="login" href="#">Вход</a>
@@ -42,6 +42,8 @@
 <div class="content">
  <aside class="content-left-column">
   <form action="#" method="post">
+    <fieldset>
+      <legend>Производители</legend>
     <input id="baxter" name="baxter" type="checkbox" value="baxter" checked>
     <label for="baxter">baxter of california</label>
     <input id="natty" name="natty" type="checkbox" value="natty">
@@ -54,7 +56,9 @@
     <label for="murray">murray's</label>
     <input id="american" name="american" type="checkbox" value="american" checked>
     <label for="american">americal crew</label>
-    <h2 class="content-brands-title">Группы товаров:</h2>
+  </fieldset>
+  <fieldset>
+    <legend>Группы товаров:</legend>
     <input type="radio" name="catalog-radios" id="shaver" value="shaver" >
     <label for="shaver">бритвенные принадлежности</label>
     <input type="radio" name="catalog-radios" id="care" value="care" checked>
@@ -62,6 +66,7 @@
     <input type="radio" name="catalog-radios" id="accessories" value="accessories">
     <label for="accessories">аксессуары</label>
     <button type="submit" class="btn">показать</button>
+  </fieldset>
    </form>
  </aside>
 </div>
